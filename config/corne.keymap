@@ -110,9 +110,9 @@ label= "SYM"                               ;
 // | ^ |     |  !  |  "  |  §  |  [  |   |  ]  |   !    |   =    |   &   |  ´|´  |  $   |
 //                     |  =  |  ?  |  ´  |   |     | NUM BSPC  | FUN DEL |
                         bindings = <
-   &kp GRAVE    &kp LS(EQUAL)  &kp EQUAL   &kp LS(NUHS)   &kp LS(N2)     &kp COMMA      &kp DOT     &kp LS(COMMA)  &kp LS(DOT)  &trans        &kp LS(FSLH)  &kp RA(RBKT)
+   &kp GRAVE    &trans         &kp LS(EQUAL)  &kp EQUAL   &kp LS(NUHS)   &kp LS(N2)     &kp COMMA   &kp LS(COMMA)  &kp DOT      &kp LS(DOT)   &kp LS(FSLH)  &kp RA(RBKT)
    &kp LS(RBKT) &kp RBKT       &kp NUBS    &kp RA(N7)     &kp LS(N8)     &kp RA(N8)     &kp RA(N9)  &kp LS(N9)     &kp RA(N0)   &kp LS(NUBS)  &kp FSLH      &kp LS(N7)
-   &kp LS(N3)   &kp RA(E)      &kp LS(N4)  &kp LS(N6)     &kp RA(NUBS)   &kp LS(N1)     &kp LS(N0)  &kp LS(MINUS)  &kp NUHS     &kp RA(Q)     &kp LS(N5)    &kp RA(MINUS)
+   &kp LS(N3)   &kp RA(E)      &kp RA(Q)  &kp LS(N4)     &kp LS(MINUS)   &kp LS(N1)     &kp LS(N0)  &kp LS(N6)     &kp RA(NUBS) &kp NUHS      &kp LS(N5)    &kp RA(MINUS)
                                            &lt MEDIA ESC  &lt NAV SPACE  &lt MOUSE TAB  &trans      &lt NUM BSPC   &lt FUN DEL
                         >;
                 };
