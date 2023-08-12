@@ -56,14 +56,14 @@ label= "BASE"                              ;
 label= "NAV"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // -----------------------------------------------------------------------------------------
-// |  1 |  2  | 3  |  4  |  5  | 6  |   |  7  |  8  |  9  |  0 |  ß  | ´ |
-// |     |     | LALT | LCTRL | LSHFT |   |   | LFT | DWN |  UP | RGT |     |      |
-// | LSHFT |     |     |     |     |      |   | HOME | PG DN | PG UP | END |     |      |
-//     | MEDIA ESC |         | MOUSE TAB  |   | SYM RET | NUM BSPC  | FUN DEL |
+// |       |     |      |          |       |            |   | HOME    |           | PG UP   |     |  ß  | ´     |
+// | LGUI  |     | LALT | LCTRL    | LSHFT |            |   | LFT     | DWN       | UP      | RGT |     |       |
+// | LSHFT |     |      |          |       |            |   | END     |           | PG DN   |     |     | RSHFT |
+//                     | MEDIA ESC |       | MOUSE TAB  |   | SYM RET | NUM BSPC  | FUN DEL |
                         bindings = <
-   &kp N1    &kp N2       &kp N3         &kp N4       &kp N5         &kp N6       &kp N7        &kp N8       &kp N9      &kp N0   &kp MINUS &kp EQUAL
-   &trans     &trans    &kp LALT     &kp LCTRL      &kp LSHFT   &trans         &kp LEFT     &kp DOWN      &kp UP       &kp RIGHT   &trans   &trans
-   &kp LSHFT  &trans    &trans       &trans         &trans       &trans         &kp HOME     &kp PG_DN     &kp PG_UP    &kp END     &trans   &kp RSHFT
+   &trans     &trans    &trans       &trans         &trans       &trans         &kp HOME     &trans        &kp PG_UP    &trans      &kp MINUS &kp EQUAL
+   &kp LGUI   &trans    &kp LALT     &kp LCTRL      &kp LSHFT    &trans         &kp LEFT     &kp DOWN      &kp UP       &kp RIGHT   &trans    &trans
+   &kp LSHFT  &trans    &trans       &trans         &trans       &trans         &kp END      &trans        &kp PG_DN    &trans      &trans    &kp RSHFT
                                      &lt MEDIA ESC  &trans       &lt MOUSE TAB  &lt SYM RET  &lt NUM BSPC  &lt FUN DEL
                         >;
                 };
