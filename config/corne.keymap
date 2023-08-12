@@ -79,7 +79,7 @@ label= "NUM"                              ;
 //            |    0    |   .   | ´   |   |  # |      | FUN DEL |
                         bindings = <
    &trans &kp LS(N7)    &kp FSLH   &kp N7  &kp N8   &kp N9          &trans       &trans     &trans       &trans    &trans    &trans
-   &trans &kp LS(RBKT)  &kp RBKT   &kp N4  &kp N5   &kp N6          &trans       &kp LSHFT  &kp LCTRL    &kp RALT  &kp LGUI  &trans
+   &trans &kp LS(RBKT)  &kp RBKT   &kp N4  &kp N5   &kp N6          &trans       &kp LSHFT  &kp LCTRL    &kp RALT  &trans    &kp LGUI
    &trans &kp LS(N5)    &kp COMMA  &kp N1  &kp N2   &kp N3          &trans       &trans     &trans       &trans    &trans    &trans
                                    &kp N0  &kp DOT  &lt MOUSE TAB   &lt SYM RET  &trans     &lt FUN DEL
                         >;
@@ -95,7 +95,7 @@ label= "FUN"                               ;
 //                    |  F10 |  F11 |  F12    |   | SYM RET | NUM BSPC  |      |
                         bindings = <
    &trans  &trans  &kp PSCRN        &kp F7   &kp F8   &kp F9   &trans       &trans        &trans     &trans    &trans    &trans
-   &trans  &trans  &kp SLCK         &kp F4   &kp F5   &kp F6   &trans       &kp LSHFT     &kp LCTRL  &kp RALT  &kp LGUI  &trans
+   &trans  &trans  &kp SLCK         &kp F4   &kp F5   &kp F6   &trans       &kp LSHFT     &kp LCTRL  &kp RALT  &trans    &kp LGUI
    &trans  &trans  &kp PAUSE_BREAK  &kp F1   &kp F2   &kp F3   &trans       &trans        &trans     &trans    &trans    &trans
                                     &kp F10  &kp F11  &kp F12  &lt SYM RET  &lt NUM BSPC  &trans
                         >;
